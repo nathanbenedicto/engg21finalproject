@@ -1,25 +1,38 @@
 ---
-title: "Final Project"
+title: "Correlating Emotional Adaptability to Attachment Anxiety (Final Project)"
 author: Nathaniel Benedicto, Maxine Van Caparas, Kyle Aaron Coloma, Marco Luis Coros,
   Derrik Kyler Mendoza
 date: '2022-07-21'
-output: html_document
+output: 
+  html_document:
+    theme: default
+    toc: true
+    toc_float: true
+font-family: "Times New Roman"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-# Correlating Emotional Adaptability to Attachment Anxiety
 
-## INTRODUCTION
+```{=html}
+<style>
+body {
+text-align: justify;
+font-family: "Times New Roman";
+}
+</style>
+```
 
-## METHODOLOGY
+## **INTRODUCTION**
 
-## RESULTS AND DISCUSSION
+## **METHODOLOGY**
 
-## CONCLUSION
+## **RESULTS AND DISCUSSION**
 
-## REFERENCES
+## **CONCLUSION**
 
-## APPENDIX
+## **REFERENCES**
+
+## **APPENDIX**
 
