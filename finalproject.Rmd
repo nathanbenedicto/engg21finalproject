@@ -25,7 +25,6 @@ background-color: #FFF9EC;
 }
 </style>
 ```
-//
 
 
 ### **INTRODUCTION**
@@ -110,7 +109,7 @@ Coefficients:
 
 Reject H0, regression is significant
 
-<img src="https://pasteboard.co/SzC9Dpjr4lo6.png" width="100%" height="100%"/>
+[![regressionline](https://i.postimg.cc/Bn0Xr9bQ/regressionline.png)]
 &emsp;
 R Studio reports that there is a very low P-value (p\<0.05), which means that the results are significant and the null hypothesis can be rejected. this statistic would imply that there is, infact, a correlation between Emotional Adaptability and Attachment Anxiety.
 
