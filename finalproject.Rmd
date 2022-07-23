@@ -1,6 +1,6 @@
 ---
 title: "Correlating Emotional Adaptability to Attachment Anxiety (Final Project)"
-author: Nathaniel Benedicto, Maxine Van Caparas, Kyle Aaron Coloma, Marco Luis Coros,
+author: Nathaniel Benedicto, Maxine Van Caparas, Happy Kyle Aaron Coloma, Marco Luis Coros,
   Derrik Kyler Mendoza
 date: '2022-07-21'
 output: 
