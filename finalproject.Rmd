@@ -51,15 +51,15 @@ The first line of code is used to load the data visualization package for RStudi
 
 Hypotheses: In order to test for the variabe's correlation, we test the following hypotheses with a confidence interval of 95% (𝜶 = 0.05) and let β1 be the regression coefficient:
 
-Null hypothesis: H0 : β1 = 0 Alternative hypothesis: HA : β1 ≠ 0
+Null hypothesis: $$H_{0}: \beta_{1} = 0$$ Alternative hypothesis: $$H_{a}: \beta_{1} \neq 0$$
 
-    Reject H0 if: P-value < 0.05 or |f0| > fα,1,n−2 [placeholder, will use latex for rmarkdown]
+Reject $H_{0}$ if: P-value \< 0.05 or $f_{0} > f_{\alpha, 1, n-2}$
 
 ## **RESULTS AND DISCUSSION**
 
 Simple linear regression:
 
-ŷi = + \*x +random error
+$$\hat{y}=\alpha + \beta*x_{i} + random\hspace{0.09cm}error$$
 
 Residuals:
 
@@ -78,56 +78,38 @@ Coefficients:
 |----------------|------------------------------------------------------|
 | Signif. codes: | 0 '\*\*\*' 0.001 '\*\*' 0.01 '\*' 0.05 '.' 0.1 ' ' 1 |
 
-<p>
-
 Residual standard error: 15.4 on 671 degrees of freedom Multiple R-squared: 0.2135 Adjusted R-squared: 0.2123 F-statistic: 182.1 on 1 and 671 DF p-value: \< 2.2e-16
 
-Residual standard error: 15.4 on 671 degrees of freedom
-Multiple R-squared:  0.2135,	Adjusted R-squared:  0.2123 
-F-statistic: 182.1 on 1 and 671 DF,  p-value: < 2.2e-16
-F = MStreatment / MSerror =  43205.8071123757/237.229901876195 = 182.126311947
-F-crit = 182.1 on 1 and 671 DF
+Residual standard error: 15.4 on 671 degrees of freedom Multiple R-squared: 0.2135, Adjusted R-squared: 0.2123 F-statistic: 182.1 on 1 and 671 DF, p-value: \< 2.2e-16 F = MStreatment / MSerror = 43205.8071123757/237.229901876195 = 182.126311947 F-crit = 182.1 on 1 and 671 DF
 
-Regression equation:
-Attachment Anxiety = 98.47 - 1.994 Emotional Adaptability
-ŷ = 98.47 — 1.994x
-F = 182.1
-F0.05, 1, 671 = 3.85 < Fcrit < 3.89
-F > Fcrit
-P(F) = 6.78926092488422E-37
-P < 0.05
-Reject H0, regression is significant
+Regression equation: Attachment Anxiety = 98.47 - 1.994 Emotional Adaptability $\hat{y}$ = 98.47 --- 1.994x F = 182.1 F0.05, 1, 671 = 3.85 \< Fcrit \< 3.89 F \> $F_{crit}$ $p_{(f)}$ = 6.78926092488422E-37 P \< 0.05 Reject H0, regression is significant
 
-</p>
 [![image test](https://i.postimg.cc/Bn0Xr9bQ/regressionline.png)]
 
-R Studio reports that there is a very low P-value (p<0.05), which means that the results are significant and the null hypothesis can be rejected. this statistic would imply that there is, infact, a correlation between Emotional Adaptability and Attachment Anxiety.
+R Studio reports that there is a very low P-value (p\<0.05), which means that the results are significant and the null hypothesis can be rejected. this statistic would imply that there is, infact, a correlation between Emotional Adaptability and Attachment Anxiety.
 
-However, the low R-squared shows that the model does not explain the variation in the data. The model can therefore not be used to predict any values with confidence.
-Still, the very low P-value is indicative of correlation, which means that there is a relationship between the two variables under study.
-
+However, the low R-squared shows that the model does not explain the variation in the data. The model can therefore not be used to predict any values with confidence. Still, the very low P-value is indicative of correlation, which means that there is a relationship between the two variables under study.
 
 ## **CONCLUSION**
 
-The study held by Luo et al. discussed the relationship between Emotional Adaptability with variables such as nomophobia and mobile addiction. However, they were not able to look into the relationship between Emotional Adaptability and Attachment Anxiety, a variable under the category of adult attachment. With that said, the researchers of this project specifically focused on such variables from the data set. 
+The study held by Luo et al. discussed the relationship between Emotional Adaptability with variables such as nomophobia and mobile addiction. However, they were not able to look into the relationship between Emotional Adaptability and Attachment Anxiety, a variable under the category of adult attachment. With that said, the researchers of this project specifically focused on such variables from the data set.
 
-The researchers utilized a simple linear regression to determine if there is a relationship between the two variables. A correlation test was then used to determine the strength of the correlation. The findings of this paper allowed the researchers to conclude that there was sufficient evidence to reject the null hypothesis. Rejecting this meant that a relationship was found between the independent variable, Emotional Adaptability, and the dependent variable, Attachment Anxiety. However, the correlation test determined that there was a weak negative correlation. This can be attributed to the large sample size, which may be affecting the correlation. It shows that, while there is a negative correlation between Emotional Adaptability and Attachment Anxiety, other factors might have a stronger influence. Given the existence of a relationship between the two, it would be prudent to consider one’s emotional adaptability when facing the dilemma of Attachment Anxiety. However, one must also consider other, possibly more pertinent factors.
+The researchers utilized a simple linear regression to determine if there is a relationship between the two variables. A correlation test was then used to determine the strength of the correlation. The findings of this paper allowed the researchers to conclude that there was sufficient evidence to reject the null hypothesis. Rejecting this meant that a relationship was found between the independent variable, Emotional Adaptability, and the dependent variable, Attachment Anxiety. However, the correlation test determined that there was a weak negative correlation. This can be attributed to the large sample size, which may be affecting the correlation. It shows that, while there is a negative correlation between Emotional Adaptability and Attachment Anxiety, other factors might have a stronger influence. Given the existence of a relationship between the two, it would be prudent to consider one's emotional adaptability when facing the dilemma of Attachment Anxiety. However, one must also consider other, possibly more pertinent factors.
 
 Therefore, universities and their student-service departments can consider this information as an additional factor, particularly when addressing issues faced by students. Perhaps this project can also be a wake-up call for guardians, parents, and educational institutions to focus and build upon their child's emotional capabilities at a young age for them to be better prepared for possible times of separation. Furthermore, if this phenomenon was found in college students, then there is a high probability that it also can be found in secondary students and perhaps even established professionals. This ever-present phenomenon of Attachment Anxiety could possibly be aided by further emotional development amongst individuals. Therefore, the link found in this project can be further explored by future researchers who may be interested in finding ways to mitigate Attachment Anxiety in individuals.
 
-
 ## **REFERENCES**
 
-[1] Commission on Higher Education, “Higher Education Enrollment by Discipline Group: AY 2010-11 to 2019-20,” CHED.gov.ph, 08-Oct-2020. [Online]. Available: https://ched.gov.ph/wp-content/uploads/Higher-Education-Enrollment-by-Discipline-Group-AY-2019-20.pdf. [Accessed: 23-Jul-2022]. 
+[1] Commission on Higher Education, "Higher Education Enrollment by Discipline Group: AY 2010-11 to 2019-20," CHED.gov.ph, 08-Oct-2020. [Online]. Available: <https://ched.gov.ph/wp-content/uploads/Higher-Education-Enrollment-by-Discipline-Group-AY-2019-20.pdf>. [Accessed: 23-Jul-2022].
 
-[2] C. H. Mulder and W. A. Clark, “Leaving home for college and gaining independence,” Environment and Planning A: Economy and Space, vol. 34, no. 6, pp. 981–999, Jun. 2002. 
+[2] C. H. Mulder and W. A. Clark, "Leaving home for college and gaining independence," Environment and Planning A: Economy and Space, vol. 34, no. 6, pp. 981--999, Jun. 2002.
 
-[3] X. Liu, T. Liu, X. Liu, X. Lu, and Y. Li, “Data on mobile phone use, adaptability and adult attachment among college students in China,” Data in Brief, vol. 43, pp. 1–8, Jun. 2022. 
+[3] X. Liu, T. Liu, X. Liu, X. Lu, and Y. Li, "Data on mobile phone use, adaptability and adult attachment among college students in China," Data in Brief, vol. 43, pp. 1--8, Jun. 2022.
 
-[4] Eastwick, Paul W.; Finkel, Eli J. (2008). The attachment system in fledgling relationships: An activating role for attachment anxiety.. Journal of Personality and Social Psychology, 95(3), 628–647. doi:10.1037/0022-3514.95.3.628 
+[4] Eastwick, Paul W.; Finkel, Eli J. (2008). The attachment system in fledgling relationships: An activating role for attachment anxiety.. Journal of Personality and Social Psychology, 95(3), 628--647. <doi:10.1037/0022-3514.95.3.628>
 
-[5] K. N. Levy, W. D. Ellison, L. N. Scott, and S. L. Bernecker, “Attachment style,” Journal of Clinical Psychology, vol. 67, no. 2, pp. 193–203, Jun. 2010. 
+[5] K. N. Levy, W. D. Ellison, L. N. Scott, and S. L. Bernecker, "Attachment style," Journal of Clinical Psychology, vol. 67, no. 2, pp. 193--203, Jun. 2010.
 
-[6] J. Luo, S. Ren, Y. Li, and T. Liu, “The effect of college students' adaptability on Nomophobia: Based on Lasso regression,” Frontiers in Psychiatry, vol. 12, pp. 1-9, Oct. 2021.
+[6] J. Luo, S. Ren, Y. Li, and T. Liu, "The effect of college students' adaptability on Nomophobia: Based on Lasso regression," Frontiers in Psychiatry, vol. 12, pp. 1-9, Oct. 2021.
 
-[7] L. Tour, “Liutour/mobile-phone-use-correlates-to-adaptability-and-attachment: Dib1.0.0,” Zenodo, 18-May-2022. [Online]. Available: https://zenodo.org/record/6560781#.Yqbnoy21F0s. [Accessed: 20-Jul-2022]. 
+[7] L. Tour, "Liutour/mobile-phone-use-correlates-to-adaptability-and-attachment: Dib1.0.0," Zenodo, 18-May-2022. [Online]. Available: <https://zenodo.org/record/6560781#.Yqbnoy21F0s>. [Accessed: 20-Jul-2022].
