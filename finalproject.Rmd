@@ -104,8 +104,7 @@ Coefficients:
 | Residual standard error: 15.4 on 671 degrees of freedom               | Multiple R-squared: 0.2135 | Adjusted R-squared: 0.2123 |
 |----------------------------------|-------------------|-------------------|
 | $F-statistic$: 182.1 on 1 and 671 DF                                    | $p-value$: \< 2.2e-16        |                          |
-| $F = MS_{Treatment} / MS_{Error}$ 
-= 43205.8071123757 / 237.2299 = **182.126311947** |                            |                      |
+| $F = MS_{Treatment} / MS_{Error}$ |=   43205.8071123757   =**182.126311947**                           |  / 237.2299                    |
 | $F_{crit}$ = 182.1 on 1 and 671 DF                                        |                            |                          |
 
 | Regression equation:                                      |
