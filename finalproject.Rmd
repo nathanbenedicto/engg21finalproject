@@ -38,14 +38,13 @@ Every single year, millions of students are enrolled in tertiary education. In t
 &emsp;
 This paper intends to investigate this recurring phenomenon. Specifically, this study will seek possible linear correlations between Emotional Adaptability and Attachment Anxiety, which are two variables that were part of a larger survey and study by Liu et al. [3]. The study by Liu et al. did not provide definitions for these variables. This paper therefore defines Emotional Adaptability as the mechanism that minimizes negative emotions, such as anxiety, by regulating one's overall emotions when faced with obstacles or uncertainty. On the other hand, Attachment Anxiety is defined as the necessity of another person's comfort and the fear of being neglected by these figures, which are usually romantic partners or other attachment figures as seen in the study of Eastwick (2008) [4]. Its concept revolves around the Attachment Theory, and through this framework, it has been beneficial in understanding different attachment styles. In the study of Levy et al. (2011), it is discussed that some have a secure and dismissive attachment, which pertains to how comfortable or uncomfortable they may feel when managing their relationships with attachment figures [5].
 
-&emsp;
 
 ### **RATIONALE**
 
 &emsp;
 Specifically, this project will address a gap in the study conducted by Luo et al. [6], which used data gathered by Liu et al.. In the study of the aforementioned researchers, it was noted that Emotional Adaptability was a "key factor" that influenced the other variables in their study, namely those related to nomophobia and mobile phone addiction [5]. However, their study did not analyze the possible relationship between adaptability and adult attachment. Therefore, Attachment Anxiety, one of two variables in adult attachment, was chosen for this project. Additionally, Emotional Adaptability was chosen as this project's independent variable since it correlated with all other variables in the study of Luo et al.. With that said, this study hopes to investigate the possibility of a relationship between Emotional Adaptability and Attachment Anxiety.
 
-&emsp;
+
 
 ### **METHODOLOGY**
 
@@ -66,7 +65,7 @@ In this R-Markdown project, the researchers investigated the strength of correla
 The first line of code loads the data visualization package for RStudio. The second line creates the model for simple linear regression. The command ‘lm’ is responsible for simple and multiple linear regression. Furthermore, the last line creates the linear regression graph with a regression line. 
 $$\hat{y} =  \alpha +  \beta*x_{i} + random \hspace{0.09cm} error_{i}$$
 
-&emsp;
+
 
 #### **Hypotheses:** 
 
@@ -76,7 +75,6 @@ $$\hat{y} =  \alpha +  \beta*x_{i} + random \hspace{0.09cm} error_{i}$$
 
 >Reject $H_{0}$ if: $P-value$ \< 0.05 or $f_{0} > f_{\alpha, 1, n-2}$
 
-&emsp;
 
 ### **RESULTS AND DISCUSSION**
 
@@ -125,13 +123,13 @@ Reject $H_{0}$, regression is significant
 
 <center> 
 
-![](https://i.postimg.cc/Bn0Xr9bQ/regressionline.png)
+
 </center>
-&emsp;
 
 &emsp;
 R Studio reports that there is a very low P-value (p<0.05), which means that the regression is significant and the null hypothesis can be rejected. This statistic would imply that there is, in fact, a correlation between Emotional Adaptability and Attachment Anxiety.
 
+&emsp;
 However, the low R-squared shows that the model does not explain the variation in the data. The model can therefore not be used to predict any values with confidence. Still, the very low P-value is indicative of correlation, which means that there is a relationship between the two variables under study. To test for correlation, Pearson’s correlation will be utilized to determine the strength and direction of the statistical relationship between emotional adaptability and attachment anxiety.
 
 The following code was used:
@@ -144,7 +142,8 @@ corellate
 The first line of code runs the correlation test to determine the Pearson correlation coefficient. The second line shows the data.
 
 Hypotheses:
-In order to test for the correlation of the two variables, we test the following hypotheses with a value between -1 and 1, with negative values in the negative direction and positive values in the positive direction, and where strength is rated as follows:   
+In order to test for the correlation of the two variables, we test the following hypotheses with a value between -1 and 1, with negative values in the negative direction and positive values in the positive direction, and where strength is rated as follows:
+   
 | Range                  | Strength |
 |------------------------|----------|
 | 0                      | None     |
@@ -152,11 +151,8 @@ In order to test for the correlation of the two variables, we test the following
 | 0.3 \< $|\rho|$ \< 0.5 | Moderate |
 | 0.5 \< $|\rho|$        | Strong   |
 
+Let $\rho$ be the correlation coefficient value: Null hypothesis: $$H_{0}: \rho = 0$$ Alternative hypothesis: $$H_{0}: \rho \neq 0$$ Reject $H_{0}$ if: $$|t_{0}| > t_{\alpha /2,n - 2}$$ The first line of code runs the correlation test to determine the Pearson correlation coefficient. The second line shows the data.
 
-Let \rho be the correlation coefficient value:
-Null hypothesis: $H_{0}: \rho = 0$
-Alternative hypothesis: $H_{0}: \rho  \neq  0$
-Reject $H_{0}$ if: $|t_{0}| > t_{\alpha /2,n - 2}$
 ```
 Pearson's product-moment correlation
 
@@ -169,12 +165,15 @@ sample estimates:
        cor 
 -0.4620401
 ```
-RStudio gives us a t-value of -13.495. Using the t-table, the critical value of t is found to be between 1.962 and 1.984. Comparing this to the given criteria shows:
-$$|t_{0}| = |-13.495| > t_{0.05 /2, \hspace{0.09cm}673 - 2}$$
-
-This allows for the null hypothesis to be rejected, and that the correlation coefficient is $\rho  \neq  0$. The calculated value for the correlation coefficient $\rho$ is -0.46. This value lies between 0.3 and 0.5, and is negative. Therefore, there is a moderate negative correlation between emotional adaptability and attachment anxiety.
 
 &emsp;
+RStudio gives us a t-value of -13.495. Using the t-table, the critical value of t is found to be between 1.962 and 1.984. Comparing this to the given criteria shows:
+
+$$|t_{0}| = |-13.495| > t_{0.05 /2, \hspace{0.09cm}673 - 2}$$
+
+&emsp;
+This allows for the null hypothesis to be rejected, and that the correlation coefficient is $\rho  \neq  0$. The calculated value for the correlation coefficient $\rho$ is -0.46. This value lies between 0.3 and 0.5, and is negative. Therefore, there is a moderate negative correlation between emotional adaptability and attachment anxiety.
+
 
 ### **CONCLUSION**
 
