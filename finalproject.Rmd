@@ -70,7 +70,7 @@ $$\hat{y} =  \alpha +  \beta*x_{i} + random \hspace{0.09cm} error_{i}$$
 
 #### **Hypotheses:** 
 
->In order to test for the relationship of the two variables, we test the following hypotheses with a confidence interval of 95% (𝜶 = 0.05) and let β1 be the regression coefficient: 
+>In order to test for the relationship of the two variables, we test the following hypotheses with a confidence interval of 95% (𝜶 = 0.05) and let $\beta_{1}$ be the regression coefficient: 
 
 >Null hypothesis: $$H_{0}: \beta_{1} = 0$$ Alternative hypothesis: $$H_{a}: \beta_{1} \neq 0$$
 
@@ -123,7 +123,10 @@ Coefficients:
 
 Reject $H_{0}$, regression is significant
 
-![regressionline](https://i.postimg.cc/Bn0Xr9bQ/regressionline.png)
+<center> 
+
+![](https://i.postimg.cc/Bn0Xr9bQ/regressionline.png)
+</center>
 &emsp;
 
 &emsp;
