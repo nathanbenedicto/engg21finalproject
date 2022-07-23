@@ -123,7 +123,7 @@ Reject $H_{0}$, regression is significant
 
 <center> 
 
-
+![](https://i.postimg.cc/Bn0Xr9bQ/regressionline.png)
 </center>
 
 &emsp;
