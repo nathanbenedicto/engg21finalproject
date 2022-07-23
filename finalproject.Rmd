@@ -53,7 +53,7 @@ The dataset and the initial research were taken from a survey conducted by Liu e
 
 
 &emsp;
-In this R-Markdown project, the researchers investigated the strength of correlation and whether or not a relationship existed between Emotional Adaptability (independent variable) and Attachment Anxiety (dependent variable). A linear regression test was used to determine the relationship between the variables, and a Pearson’s correlation test was used to determine the strength of correlation. After encoding the necessary data in a spreadsheet, the researchers imported it into R-Studio to run a simple linear regression analysis. The following code was used:
+In this R-Markdown project, the researchers investigated the strength of correlation and whether or not a relationship existed between Emotional Adaptability (independent variable) and Attachment Anxiety (dependent variable). A linear regression test was used to determine if a relationship existed between the variables, and a Pearson’s correlation test was used to determine the strength of correlation. After encoding the necessary data in a spreadsheet, the researchers imported it into R-Studio to run a simple linear regression analysis. The following code was used:
 
     library("ggplot2")
     model <- lm(att ~ emo, data = dataset)
