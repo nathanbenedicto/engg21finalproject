@@ -58,11 +58,11 @@ In this R-Markdown project, the researchers investigated the correlation between
 The first line of code is used to load the data visualization package for RStudio. The second line creates the model for simple linear regression. The command 'lm' is responsible for simple and multiple linear regression. Furthermore, the last line creates the linear regression graph with a regression line. $$\hat{y} =  \alpha +  \beta*x_{i} + random \hspace{0.09cm} error_{i}$$
 
 &emsp;
-Hypotheses: In order to test for the variabe's correlation, we test the following hypotheses with a confidence interval of 95% (𝜶 = 0.05) and let β1 be the regression coefficient:
+Hypotheses: In order to test for the variabe's correlation, we test the following hypotheses with a confidence interval of 95% (𝜶 = 0.05) and let $\beta_{1}$ be the regression coefficient:
 
 Null hypothesis: $$H_{0}: \beta_{1} = 0$$ Alternative hypothesis: $$H_{a}: \beta_{1} \neq 0$$
 
-Reject $H_{0}$ if: P-value \< 0.05 or $f_{0} > f_{\alpha, 1, n-2}$
+Reject $H_{0}$ if: $P-value$ \< 0.05 or $f_{0} > f_{\alpha, 1, n-2}$
 
 ### **RESULTS AND DISCUSSION**
 
@@ -89,9 +89,9 @@ Coefficients:
 
 | Residual standard error: 15.4 on 671 degrees of freedom               | Multiple R-squared: 0.2135 | Adjusted R-squared: 0.2123 |
 |----------------------------------|-------------------|-------------------|
-| F-statistic: 182.1 on 1 and 671 DF                                    | p-value: \< 2.2e-16        |                            |
-| F = MStreatment / MSerror = 43205.8071123757/237.2299 = 182.126311947 |                            |                            |
-| F-crit = 182.1 on 1 and 671 DF                                        |                            |                            |
+| $F-statistic$: 182.1 on 1 and 671 DF                                    | $p-value$: \< 2.2e-16        |                          |
+| $F = MS_{Treatment} / MS_{Error}$ = 43205.8071123757/237.2299 = 182.126311947 |                            |                      |
+| $F_{crit}$ = 182.1 on 1 and 671 DF                                        |                            |                          |
 
 | Regression equation:                                      |
 |-----------------------------------------------------------|
@@ -100,16 +100,18 @@ Coefficients:
 
 | F and P-values                   |
 |----------------------------------|
-| F = 182.1                        |
-| F0.05, 1, 671 = 3.85             |
-| 3.85 \< Fcrit \< 3.89            |
-| F \> $F_{crit}$                  |
+| $F$ = 182.1                        |
+| $F_{0.05, 1, 671}$ = 3.85             |
+| 3.85 \< $F_{crit}$ \< 3.89            |
+| $F$ \> $F_{crit}$                  |
 | $P_{(f)}$ = 6.78926092488422E-37 |
-| P \< 0.05                        |
+| $P$ \< 0.05                        |
 
-Reject H0, regression is significant
+Reject $H_{0}$, regression is significant
 
-[![regressionline](https://i.postimg.cc/Bn0Xr9bQ/regressionline.png)]
+![regressionline](https://i.postimg.cc/Bn0Xr9bQ/regressionline.png)
+&emsp;
+
 &emsp;
 R Studio reports that there is a very low P-value (p\<0.05), which means that the results are significant and the null hypothesis can be rejected. this statistic would imply that there is, infact, a correlation between Emotional Adaptability and Attachment Anxiety.
 
